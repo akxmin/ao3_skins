@@ -1,0 +1,235 @@
+#workskin h2.title.heading {
+  color: #d84549;
+  font-family: "Brush Script MT", cursive;
+  font-size: 4em;
+}
+
+#workskin img {
+  max-width: 100%;
+  height: auto;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  border: 0;
+}
+
+#workskin .preface.group p {
+  text-indent: 0;
+}
+
+#workskin .userstuff p {
+  text-indent: 1em;
+}
+
+#workskin .preface.group {
+  padding: 35px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  border: 2px solid #edf5f3;
+  -webkit-box-shadow: 0 2px 3px 0 #ccc;
+  box-shadow: 0 2px 3px 0 #ccc;
+}
+
+#workskin .preface.group div h3 {
+  border: none;
+  font-weight: 400;
+  font-family: arial, helvetica, sans-serif;
+  color: #d84549;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 3px;
+}
+
+#workskin .preface.group h4 {
+  font-family: Verdana, 'Lucida Grande', 'Lucida Sans Unicode', 'GNU Unifont', Helvetica, sans-serif;
+  font-size: 12px;
+  margin: 5px 0;
+}
+
+#workskin .preface.group h3.byline.heading {
+  font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'GNU Unifont', Verdana, Helvetica, sans-serif;
+  font-style: normal;
+}
+
+#workskin .userstuff blockquote {
+  border: 0;
+}
+
+#workskin .preface.group h3.byline.heading a {
+  color: #d84549;
+  display: block;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 3px;
+}
+
+#workskin .preface.group a {
+  text-decoration: none;
+}
+
+#workskin .link {
+  color: #d84549;
+}
+
+#workskin hr {
+  overflow: visible;
+  padding: 0;
+  border: none;
+  margin: 3.5em auto;
+  text-align: center;
+  color: #d84549;
+  width: 100%;
+}
+
+#workskin hr:after {
+  content: " · • ⦁ ✦ ⦁ • · ";
+  display: inline-block;
+  position: relative;
+  font-size: 20px;
+}
+
+#workskin a:link {
+  color: #d84549;
+  font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'GNU Unifont', Verdana, Helvetica, sans-serif;
+}
+
+#workskin a:visited {
+  color: #d84549;
+}
+
+#workskin a:hover,
+#workskin .preface.group h3.byline.heading a:hover {
+  color: #9A0026;
+  font-weight: bold;
+}
+
+#workskin a:active {
+  color: #d84549;
+}
+
+#workskin ul li::marker {
+  color: #d84549;
+}
+
+#workskin p.image,
+#workskin p.image img {
+  padding: 0;
+  margin-block-end: 0;
+  margin-block-start: 0;
+  line-height: 0;
+}
+
+#workskin p.image {
+  margin: 0 auto;
+}
+
+#workskin p.image img {
+  margin: 0 !important;
+}
+
+#workskin .phone {
+  max-width: 400px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: table;
+  margin: auto;
+}
+
+#workskin .header {
+  min-width: 400px;
+  background-color: transparent;
+  font-weight: bold;
+  padding-bottom: .5em;
+  padding-top: .5em;
+  margin-left: -.5em;
+  margin-right: -.5em;
+  margin-bottom: -2em;
+  text-align: center;
+  text-transform: capitalize;
+  display: table;
+}
+
+#workskin .messagebody {
+  display: table;
+  padding-left: .5em;
+  padding-right: .5em;
+}
+
+#workskin .text {
+  float: left;
+  color: #000000;
+  margin: 0 0 0.5em;
+  border-radius: 1em;
+  padding: 0.5em 1em;
+  background: #e5e5ea;
+  max-width: 75%;
+  clear: both;
+  position: relative;
+}
+
+#workskin .text::after {
+  content: "";
+  position: absolute;
+  left: -.5em;
+  bottom: 0;
+  width: 0.5em;
+  height: 1em;
+  border-right: 0.5em solid #e5e5ea;
+  border-bottom-right-radius: 1em 0.5em;
+}
+
+#workskin .breply {
+  float: right;
+  color: #FFFFFF;
+  margin: 0 0 0.5em;
+  border-radius: 1em;
+  padding: 0.5em 1em;
+  background: #1289fe;
+  max-width: 75%;
+  clear: both;
+  position: relative;
+}
+
+#workskin .breply::after {
+  content: "";
+  position: absolute;
+  right: -0.5em;
+  bottom: 0;
+  width: 0.5em;
+  height: 1em;
+  border-left: 0.5em solid #1289fe;
+  border-bottom-left-radius: 1em 0.5em;
+}
+
+#workskin .ts1 {
+  color: #7B7C80;
+  font-size: .75em;
+  padding-bottom: 2.5em;
+  padding-top: .5em;
+  margin-left: -.5em;
+  margin-right: -.5em;
+  margin-bottom: -.5em;
+  text-align: center;
+  display: table;
+  min-width: 400px;
+}
+
+#workskin .ts1::before {
+  content: "";
+  font-weight: bold;
+}
+
+#workskin .ts1::after {
+  content: "";
+}
+
+#workskin .char1 {
+  text-align: left;
+  padding: 0% 10% 2% 0%;
+  max-width: 50%;
+}
+
+#workskin .char2 {
+  text-align: right;
+  padding: 0% 0% 2% 10%;
+  max-width: 50%;
+}
